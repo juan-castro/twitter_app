@@ -1,5 +1,6 @@
 TwitterApp::Application.routes.draw do
   get "users/new"
+  get "users/index"
 
   root :to => 'static_pages#home'
 
